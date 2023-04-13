@@ -1,0 +1,60 @@
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(91 90 87 / 75%) !important;
+}
+
+.ReactModal__Content.ReactModal__Content--after-open {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+    /* background: red !important; */
+    border-radius: 20px !important;
+    border-color: transparent !important;
+}
+.modal{
+    &__h2{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        color: #000000;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    &__close{
+        float: right;
+        color: #FEAF00;
+    }
+    &__form{
+        label{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: #6C6C6C;
+            display: block;
+        }
+        input{
+            background: #fec93939;
+            border: 1px solid #E5E5E5;
+            border-radius: 4px;
+            width: 100%;
+            padding: 15px 0;
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+    }
+    &__button{
+        background: #FEAF00;
+        border-radius: 4px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        width: 100%;
+    }
+}
